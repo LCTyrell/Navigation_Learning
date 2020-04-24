@@ -56,7 +56,7 @@ pytz==2019.3
 pywin32==227
 PyYAML==5.2
 pyzmq==18.1.1
-requests==2.18.4
+requests==2.20.0
 scipy==1.4.1
 six==1.13.0
 tensorboard==1.15.2
