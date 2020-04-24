@@ -11,26 +11,26 @@ Deep Q-Network (DQN) algorithm was used to solve the environment.
 **DQN Algorithm:**
 
 **Architecture of the Neural Network:**
-model.py
-Input layer : state_size (37)
-First hidden layer: fc units=64, activation function: ReLU
-Second hidden layer: fc units=64, activation function: ReLU
-Output layer: action_size (4)
+model.py  
+Input layer : state_size (37)  
+First hidden layer: fc units=64, activation function: ReLU  
+Second hidden layer: fc units=64, activation function: ReLU  
+Output layer: action_size (4)  
 
 **Hyperparameters:**
-angent_dqn.py
+angent_dqn.py  
 
-`BUFFER_SIZE = int(1e5)  # replay buffer size`
-`BATCH_SIZE = 64         # minibatch size`
-`GAMMA = 0.99            # discount factor`
-`TAU = 1e-3              # for soft update of target parameters`
-`LR = 5e-4               # learning rate` 
-`UPDATE_EVERY = 4        # how often to update the network`
+`BUFFER_SIZE = int(1e5)  # replay buffer size`  
+`BATCH_SIZE = 64         # minibatch size`  
+`GAMMA = 0.99            # discount factor`  
+`TAU = 1e-3              # for soft update of target parameters`  
+`LR = 5e-4               # learning rate`   
+`UPDATE_EVERY = 4        # how often to update the network`  
 
 ### Results
 
-The environment was solved in ... episodes.
-Plot :
+The environment was solved in ... episodes.  
+Plot :  
 
 
 
