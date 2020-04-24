@@ -10,6 +10,8 @@ Deep Q-Network (DQN) algorithm was used to solve the environment.
 
 **DQN Algorithm:**
 
+![algo](images/algo1.jpg)
+
 **Architecture of the Neural Network (model.py):**
   
 ```Input layer : state_size (37)  
@@ -36,10 +38,15 @@ Plot :
 ![plot](images/plot_nav.jpg)
   
 Agent navigation :  
+    
 ![nav](images/banana_collector.gif)
 
 ### Discussion and futur improvement
 
-Follow the instructions in `Navigation_DQN_train.ipynb` to train the agent and test it with    
+There are still episodes where the agent gets stuck, seeming to hesitate between different choices.
+
+Since the first publication of DQN, a lot of new algorithm has been proposed to ameliorate the algorithm : DDQN, Dual DQN, Rainbow, ...
+
+The pixel version   
 
 
