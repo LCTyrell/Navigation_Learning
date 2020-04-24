@@ -10,7 +10,7 @@ Deep Q-Network (DQN) algorithm was used to solve the environment.
 
 **DQN Algorithm:**
 
-![algo](images/algo1.jpg)
+![algo](images/Algo1.jpg)
 
 **Architecture of the Neural Network (model.py):**
   
