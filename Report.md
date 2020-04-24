@@ -36,7 +36,7 @@ Plot :
 ![plot](images/plot_nav.jpg)
   
 Agent navigation :  
-![nav](images/bananacollector.gif)
+![nav](images/banana_collector.gif)
 
 ### Discussion and futur improvement
 
