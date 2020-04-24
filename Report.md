@@ -30,13 +30,13 @@ UPDATE_EVERY = 4        # how often to update the network
 
 ### Results
 
-The environment was solved in ... episodes.  
+The environment was solved in 434 episodes.  
 Plot :  
     
 ![plot](images/plot_nav.jpg)
   
 Agent navigation :  
-![plot](images/bananacollector.gif)
+![nav](images/bananacollector.gif)
 
 ### Discussion and futur improvement
 
