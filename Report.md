@@ -12,10 +12,11 @@ Deep Q-Network (DQN) algorithm was used to solve the environment.
 
 **Architecture of the Neural Network (model.py):**
   
-Input layer : state_size (37)  
-First hidden layer: Fully connected, units=64, activation function: ReLU  
-Second hidden layer: Fully connected, units=64, activation function: ReLU  
+```Input layer : state_size (37)  
+First hidden layer: fully connected, units=64, activation function: ReLU  
+Second hidden layer: fully connected, units=64, activation function: ReLU  
 Output layer: action_size (4)  
+```
 
 **Hyperparameters (angent_dqn.py):**  
 
@@ -31,7 +32,7 @@ UPDATE_EVERY = 4        # how often to update the network
 
 The environment was solved in ... episodes.  
 Plot :  
-
+[plot](images/plot_nav.jpg)
 
 
 ### Discussion and futur improvement
