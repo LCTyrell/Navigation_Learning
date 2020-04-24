@@ -10,15 +10,14 @@ Deep Q-Network (DQN) algorithm was used to solve the environment.
 
 **DQN Algorithm:**
 
-**Architecture of the Neural Network:**
-model.py  
+**Architecture of the Neural Network (model.py):**
+  
 Input layer : state_size (37)  
-First hidden layer: fc units=64, activation function: ReLU  
-Second hidden layer: fc units=64, activation function: ReLU  
+First hidden layer: Fully connected, units=64, activation function: ReLU  
+Second hidden layer: Fully connected, units=64, activation function: ReLU  
 Output layer: action_size (4)  
 
-**Hyperparameters:**
-angent_dqn.py  
+**Hyperparameters (angent_dqn.py):**  
 
 ```BUFFER_SIZE = int(1e5)  # replay buffer size  
 BATCH_SIZE = 64         # minibatch size  
