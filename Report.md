@@ -32,7 +32,7 @@ UPDATE_EVERY = 4        # how often to update the network
 
 The environment was solved in ... episodes.  
 Plot :  
-[plot](images/plot_nav.jpg)
+![plot](images/plot_nav.jpg)
 
 
 ### Discussion and futur improvement
