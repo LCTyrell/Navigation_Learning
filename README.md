@@ -42,6 +42,6 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 Follow the instructions in `Navigation_DQN_train.ipynb` to train the agent and test it with `Navigation_DQN_test.ipynb`.
 
-The saved model weights of the successful agent :`checkpoint_nav.pth`   
+The saved model weights of the successful agent :`checkpoint_nav_solved.pth`   
 
 
