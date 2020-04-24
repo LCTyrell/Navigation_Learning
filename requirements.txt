@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 absl-py==0.9.0
 astor==0.8.1
 atari-py==0.2.6
@@ -46,6 +47,15 @@ parso==0.6.2
 pickleshare==0.7.5
 Pillow==7.1.1
 prompt-toolkit==3.0.4
+=======
+Pillow>=4.2.1
+matplotlib
+numpy>=1.11.0
+jupyter
+pytest>=3.2.2
+docopt
+pyyaml
+>>>>>>> b99da748096af0ff8ccdbe332a61cee65258fd55
 protobuf==3.5.2
 pycparser==2.20
 pyglet==1.5.0
