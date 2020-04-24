@@ -22,9 +22,9 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 ### Installation
 
-1. Create a python environment with required library (requirements.txt)
+1. Download or clone this Github repository.
 
-2. Download or clone this Github repository.
+2. Create a python environment and install required library: `pip install -r requirements.txt`
 
 3. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
