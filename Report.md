@@ -2,19 +2,13 @@
 
 ### Learning Algorithm :
 
-Deep Q-Network (DQN) algorithm was used to solve the environment.
+The Deep Q-Network (DQN) algorithm was used to solve the environment.
 
 **References**  
 
-Riedmiller, Martin. "Neural fitted Q iteration–first experiences with a data efficient neural reinforcement learning method." European Conference on Machine Learning. Springer, Berlin, Heidelberg, 2005. http://ml.informatik.uni-freiburg.de/former/_media/publications/rieecml05.pdf  
+* Riedmiller, Martin. "Neural fitted Q iteration–first experiences with a data efficient neural reinforcement learning method." European Conference on Machine Learning. Springer, Berlin, Heidelberg, 2005. http://ml.informatik.uni-freiburg.de/former/_media/publications/rieecml05.pdf  
   
-Mnih, Volodymyr, et al. "Human-level control through deep reinforcement learning." Nature518.7540 (2015): 529. http://www.davidqiu.com:8888/research/nature14236.pdf   
-
-In DQN, a neural network is used to represent the action-value function (wich is represented by a table in the original Q-learning algorithm).
-
-Two key features was added to avoid instability problem:  
-* Experience Replay: creation of a replay buffer to prevent problems of correlations.
-* Fixed Q-Targets: creation of a separate target network.
+* Mnih, Volodymyr, et al. "Human-level control through deep reinforcement learning." Nature518.7540 (2015): 529. http://www.davidqiu.com:8888/research/nature14236.pdf   
 
 
 **DQN Algorithm (from Deepmind paper):**
