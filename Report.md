@@ -8,7 +8,7 @@
 
 Deep Q-Network (DQN) algorithm was used to solve the environment.  
 
-**DQN Algorithm (from OpenAI paper):**
+**DQN Algorithm (from Deepmind paper):**
 
 ![algo](images/Algo1.jpg)
 
@@ -43,11 +43,29 @@ Agent navigation :
     
 ![nav](images/banana_collector.gif)
 
-### Discussion and futur improvement
+### Future works
 
-There are still episodes where the agent gets stuck, seeming to hesitate between different choices.
+Try the **Learning from Pixels** environment.
 
-Since the first publication of DQN, a lot of new algorithm has been proposed to ameliorate the algorithm : DDQN, Dual DQN, Rainbow, ...
+**implement:**  
+  
+* Prioritized experience replay  
+*  Multi-step bootstrap targets  
+* Distributational DQN  
+* Noisy DQN  
+
+**Try other algorithms:**  
+  
+* Double DQN  
+* Dueling DQN  
+* Rainbow  
+* C51  
+* Agent57  
+
+
+
+
+algorithm : DDQN, Dual DQN, Rainbow, ...
 
 The pixel version   
 
