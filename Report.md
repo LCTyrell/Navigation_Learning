@@ -8,13 +8,14 @@
 
 Deep Q-Network (DQN) algorithm was used to solve the environment.  
 
-**DQN Algorithm:**
+**DQN Algorithm (from OpenAI paper):**
 
 ![algo](images/Algo1.jpg)
 
 **Architecture of the Neural Network (model.py):**
   
-```Input layer : state_size (37)  
+```
+Input layer : state_size (37)  
 First hidden layer: fully connected, units=64, activation function: ReLU  
 Second hidden layer: fully connected, units=64, activation function: ReLU  
 Output layer: action_size (4)  
@@ -22,7 +23,8 @@ Output layer: action_size (4)
 
 **Hyperparameters (angent_dqn.py):**  
 
-```BUFFER_SIZE = int(1e5)  # replay buffer size  
+```
+BUFFER_SIZE = int(1e5)  # replay buffer size  
 BATCH_SIZE = 64         # minibatch size  
 GAMMA = 0.99            # discount factor  
 TAU = 1e-3              # for soft update of target parameters  
